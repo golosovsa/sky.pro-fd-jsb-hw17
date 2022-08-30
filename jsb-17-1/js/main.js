@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } });
+    require.config({ paths: { vs: '/node_modules/monaco-editor/min/vs' } });
 
     const editorContainer = document.querySelector(".editor__container");
 
