@@ -7,7 +7,7 @@ class Pin {
             secure: true,
             previewDuration: 600,
             onInput: (value) => {
-              this.code = value;
+              //this.code = value;
             }
         });
         this.identify = identify;
